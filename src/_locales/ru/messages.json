@@ -1,0 +1,10 @@
+{
+  "name": {
+    "message": "Цитата каждые 10 секунд",
+    "description": "extension name"
+  },
+  "description": {
+    "message": "Рандомная цитата каждые 10 секунд (через 5 секунд удаляется - кто успел, тот прочитал)",
+    "description": "extension description"
+  }
+}

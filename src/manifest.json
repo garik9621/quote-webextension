@@ -1,0 +1,23 @@
+{
+  "name": "__MSG_name__",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "__MSG_description__",
+  "default_locale": "ru",
+  "icons": {},
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "run_at": "document_idle",
+      "all_frames": false,
+      "js": ["content-script.js"]
+    }
+  ],
+  "host_permissions": ["<all_urls>"],
+  "web_accessible_resources": [
+    {
+      "resources": ["content-script.css"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
